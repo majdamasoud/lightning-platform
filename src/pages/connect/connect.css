@@ -25,9 +25,9 @@
     justify-content: flex-start;
     align-items: center;
     flex: 1;
-    margin-left: 25px;
-    padding-top: 6vh;
-    padding-bottom: 6vh;
+    margin-left: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
     height: 100%;
 }
 
@@ -38,7 +38,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    margin-right: 25px;
+    margin-right: 2rem;
 }
 
 .description {
@@ -59,4 +59,10 @@
 
 .description > p {
     line-height: 1.5;
+}
+
+@media (max-width: 1080px) {
+    .left{
+        display: none;
+    }
 }
