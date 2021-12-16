@@ -5,7 +5,7 @@ function ConenctBox() {
     return (
         <section className="connectBox">
             <h1>Fill in the information below</h1>
-            <section className="connectInfo">
+            <form className="connectInfo">
                 <div>
                     <label>Username</label>
                     <input type="text" class="text-username" placeholder="Nakamoto2008"></input>
@@ -33,7 +33,7 @@ function ConenctBox() {
                 <div>
                     <button className="connectButton">CONNECT</button>
                 </div>
-            </section>
+            </form>
         </section>
     )
 }

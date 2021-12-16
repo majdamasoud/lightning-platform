@@ -11,25 +11,22 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Red: hsl(0, 100%, 74%) 
-- Green: hsl(154, 59%, 51%)
-
-### Accent
-
-- Blue: hsl(248, 32%, 49%)
+- Desaturated Dark Cyan: hsl(180, 29%, 50%)
 
 ### Neutral
 
-- Dark Blue: hsl(249, 10%, 26%) 
-- Grayish Blue: hsl(246, 25%, 77%)
+- Light Grayish Cyan (Background): hsl(180, 52%, 96%)
+- Light Grayish Cyan (Filter Tablets): hsl(180, 31%, 95%)
+- Dark Grayish Cyan: hsl(180, 8%, 52%)
+- Very Dark Grayish Cyan: hsl(180, 14%, 20%)
 
 ## Typography
 
 ### Body Copy
 
-- Font size: 16px
+- Font size: 15px
 
-### Font
+### Headings
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 500, 600, 700
+- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- Weights: 500, 700

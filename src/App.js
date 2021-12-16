@@ -1,16 +1,17 @@
 import './App.css';
-import Connect from './pages/connect/Connect.js';
+import { Routes, Route } from "react-router-dom";
+import Connect from './pages/connect/Connect';
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello</h1>
-      </header>
-      <main className="App-main">
-        <Connect/>
-      </main>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/connect' element={<Connect />} />
+        </Routes>
     </div>
+
   );
 }
 
